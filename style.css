@@ -76,3 +76,40 @@
 .spawn{
     padding: 10px;
 }
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    padding: 0 190px;
+}
+.trio-mandili{
+    border: 2px solid black;
+    opacity: 0.8;
+}
+.trio-mandili:hover{
+    opacity: 1;
+    transition: 0.4s ease-in-out;
+}
+.text{
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+    font-family: poller_oneregular;
+    font-size: 20px;
+}
+.p-text{
+    color: #fff;
+    text-align: center;
+}
+.last-box{
+    margin-top: 50px;
+    background-color: #252525;
+    display: flex;
+    padding: 40px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.goal{
+    margin-left: 20px;
+}
